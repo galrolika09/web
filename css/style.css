@@ -5,3 +5,9 @@ nav a{
     font-family:serif;
 
 }
+footer{
+    text-align:center;
+    background-color:black;
+    color:blanchedalmond;
+    padding: 10px;
+}
