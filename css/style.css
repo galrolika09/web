@@ -6,8 +6,8 @@ nav a{
 
 }
 footer{
-    text-align:center;
-    background-color:black;
+    text-align:center!important;
+    background-color:black !important;
     color:blanchedalmond;
     padding: 10px;
 }
