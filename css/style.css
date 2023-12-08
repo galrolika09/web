@@ -6,9 +6,9 @@ nav a{
 
 }
 
-footer{
-    text-align:center!important;
-    background-color:black !important;
-    color:blanchedalmond;
-    padding: 10px;
-}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
