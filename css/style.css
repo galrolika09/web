@@ -13,7 +13,6 @@ footer {
     background-color: DarkSalmon;
     color: white;
   }
-  body{
-    color:white;
-    background-color:black
-  }
+  body 
+  {color:darksalmon;background-color:darkslategrey}
+  html*{font-family:Impact}
