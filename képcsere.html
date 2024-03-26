@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body
+        {color:darksalmon;background-color:darkslategrey}
+  html*{font-family:Impact}
+
         .image-container {
             display: inline-block;
         }
@@ -12,6 +16,7 @@
             width: 300px;
         }
     </style>
+    <link href="style.css">
 </head>
 <body>
     <nav>
@@ -24,8 +29,8 @@
         <a href="képcsere.html">Képcsere</a>
     </nav>
     <div class="image-container" onclick="swap_images();">
-        <img id="elso" src="/img/kép.webp" style="display: block;">
-        <img id="ketto" src="/img/kép2.jpg" style="display: none;">
+        <img id="first" src="kép.webp" style="display: block;">
+        <img id="second" src="kép2.jpg" style="display: none;">
     </div>
     <br>
     <footer>
