@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container {
+            display: inline-block;
+        }
+        .image-container img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Vissza a főoldalra,</a>
+        <a href="Űrlap.html">Űrlap,</a>
+        <a href="keplink.html">Képlink,</a>
+        <a href="listak.html">Listák,</a>
+        <a href="orarend.html">Órarend,</a>
+        <a href="evszakok.html">Évszakok</a>
+        <a href="képcsere.html">Képcsere</a>
+    </nav>
+    <div class="image-container" onclick="swap_images();">
+        <img id="elso" src="./img/kép.webp" style="display: block;">
+        <img id="ketto" src="./img/kép2.jpg" style="display: none;">
+    </div>
+    <br>
+    <footer>
+        <h3>Author: Gál Roland</h3>
+        <h3>galr@kkszki.hu</h3>
+    </footer>
+    <script>
+        
+        function swap_images() {
+            let first = document.getElementById("first");
+            let second = document.getElementById("second");
+
+            if (first.style.display === "none") {
+                first.style.display = "block";
+                second.style.display = "none";
+            } else {
+                first.style.display = "none";
+                second.style.display = "block";
+            }
+        }
+    
+    </script>
+</body>
+</html>
