@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Étterem vagy kávézó</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body{
+            background-color: #dda15e;
+            font-family: Noto Sans, sans-serif;
+        }
+        form{
+            background-color: #bc6c25;
+            padding: 10px;
+        }
+        nav{
+           background-color: #bc6c25;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <nav>
+        <a href="index.html">Vissza a főoldalra,</a>
+        <a href="űrlap.html">Űrlap,</a>
+        <a href="keplink.html">Képlink,</a>
+        <a href="listak.html">Listák,</a>
+        <a href="orarend.html">Órarend,</a>
+        <a href="evszakok.html">Évszakok</a>
+        <a href="képcsere.html">Képcsere</a>
+        <a href="étterem.html">Étterem</a>
+    </nav>
+
+    <header class="bg-dark text-light text-center py-5">
+        <h1>McDonalds</h1>
+        <p>Fincsi-mincsi kajcsik</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Főoldal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Étlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="main-content" class="container py-5">
+        <section id="home" class="text-center">
+            <img src="asd123.jpg" class="img-fluid rounded" alt="étterem" width="800px">
+            <h2>Üdvözöllek az étteremben!</h2>
+            <p>Kedves vendégek! Örömmel üdvözöllek titeket az étteremben.</p>
+        </section>
+
+        <section id="menu" class="mt-5">
+            <h2 class="text-center">Étlap</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">Töltött káposzta</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">3000Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Fanta</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">500Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-success">
+                        <div class="card-body">
+                            <h5 class="card-title">Pörkölt-nokedli</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">2500Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-danger">
+                        <div class="card-body">
+                            <h5 class="card-title">Víz</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">100Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Hamburger</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">2350Ft</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card bg-success">
+                        <div class="card-body">
+                            <h5 class="card-title">Coca cola</h5>
+                            <p class="card-text"></p>
+                            <p class="card-text">250Ft</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5">
+            <h2 class="text-center">Kapcsolat</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Név</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail cím</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Üzenet</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Küldés</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>© 2024 Mcdonalds</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+</body>
+</html>
